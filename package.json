@@ -1,0 +1,19 @@
+{
+  "name": "zaphod",
+  "version": "1.0.0",
+  "author": "Matthias <matthias@colada.be> (http://www.colada.be)",
+  "description": "A basic SCSS/HTML boilerplate with Gulp! workflow",
+  "repository": "netsensei/zaphod",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "node-bourbon": "^4.2.8",
+    "node-neat": "^1.7.2"
+  }
+}
