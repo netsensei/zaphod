@@ -1,3 +1,4 @@
 node_modules
 public/css/*.css
 public/css/maps
+public/vendor

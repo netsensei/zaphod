@@ -1,0 +1,17 @@
+{
+  "name": "zaphod",
+  "description": "A basic SCSS/HTML boilerplate with Gulp! workflow",
+  "authors": [
+    "Matthias <matthias@colada.be> (http://www.colada.be)"
+  ],
+  "private": true,
+  "dependencies": {
+    "normalize-css": "~4.0.0"
+  },
+  "install": {
+    "path": {
+      "css": "public/vendor/css",
+      "js": "public/vendor/js"
+    }
+  }
+}
