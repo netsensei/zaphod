@@ -5,6 +5,9 @@ var browserSync = require('browser-sync').create();
 var sass = require('gulp-sass');
 var watch = require('gulp-watch');
 var prefixer = require("gulp-autoprefixer");
+// Temporary hack until Gulp 4.0
+// See: https://www.npmjs.com/package/run-sequence
+var runSequence = require('run-sequence');
 
 gulp.task('reload', ['sass'], function () {
     // Empty
@@ -49,4 +52,10 @@ gulp.task('watch', function() {
     gulp.watch(['scss/**/*.scss'], ['reload']);
 });
 
-gulp.task('default', ['watch', 'browser-sync']);
+gulp.task('build', function (done) {
+    runSequence('sass', done);
+});
+
+gulp.task('default', function (done) {
+   runSequence('watch', 'browser-sync', done);
+});

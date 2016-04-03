@@ -20,9 +20,9 @@ This is a basic SCSS/HTML boilerplate project. I use it as my own sandbox abling
 
 You'll need Gulp and Node pre-installed.
 
-1. Clone this repository
-2. Initialize with `npm install`
-3. Use `gulp dev` to start going
+1. Clone this repository.
+2. Initialize with `npm install` as you would normally.
+3. Use `gulp` to get development going.
 
 ## License
 
