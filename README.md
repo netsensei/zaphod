@@ -5,16 +5,23 @@ This is a basic [SCSS](http://sass-lang.com/)/[HTML](https://abookapart.com/prod
 > "That really is truly amazing. It’s so amazingly amazing, I think I’d like to steal it."
 > -- [Zaphod Beeblebrox](https://en.wikipedia.org/wiki/Zaphod_Beeblebrox)
 
+## Why did you build this?
+
+This project showecases a styled HTML page. It's not about the page itself though, it's about how I got there.
+
+Styling a basic HTML page wasn't always this involved. I wanted to learn what it takes to style a basic HTML page with modern techniques. There are many best practices, tools and tutorials out there, but it's hard to glue all the pieces together in a sensible, maintainable whole. This project tries to document a somewhat sane frontend workflow.
+
+There are many boilerplate projects, but this one is mine.
+
 ## What's in the box?
 
 - [Gulp](http://gulpjs.com/) backed
 - [SASS](http://sass-lang.com/) based
-  - A [SMACCS](http://smacss.com) compatible project architecture
+  - A [SMACCS](http://smacss.com)/[BEM](https://en.bem.info/) compatible project architecture
   - Based on [Neat](http://neat.bourbon.io/)/[Bourbon](http://bourbon.io/)
 - [Browsersync](https://www.browsersync.io/) with livereload support
 - [Autoprefixer](https://github.com/postcss/autoprefixer) supported
 - [Sourcemaps](http://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) supported
-- A basic HTML template with a few showcases
 
 ## How do I use this?
 
