@@ -1,0 +1,15 @@
+.l-header {
+    background: $color-dark-green;
+}
+
+.l-header__title {
+    margin: modular-scale(0) 0 0;
+    text-align: center;
+}
+
+.l-header__call-out {
+    font-style: italic;
+    font-size: modular-scale(1);
+    margin: modular-scale(-1) 0 0;
+    text-align: center;
+}

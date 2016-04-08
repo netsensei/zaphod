@@ -1,0 +1,15 @@
+.l-container {
+    @include outer-container;
+    max-width: $desktop-size;
+}
+
+.l-header {
+    @include span-columns(12);
+}
+
+.l-main {
+    @include span-columns(12);
+}
+.l-footer {
+    @include span-columns(12);
+}

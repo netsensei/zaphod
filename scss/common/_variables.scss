@@ -1,0 +1,43 @@
+// Breakpoints
+$mobile-size: em(320);
+$desktop-size: em(768);
+
+// Colors
+
+// Defines a color palette
+
+///$color-beige: #fafafa;
+$color-red: #E63946;
+$color-light-green: #F1FAEE;
+$color-dark-green: #A8DADC;
+$color-light-blue: #457B9D;
+$color-dark-blue: #1D3557;
+
+// Defaults
+
+// Typography
+
+// Modular scale
+
+$modular-scale-ratio: $major-third;
+$modular-scale-base: em(18);
+
+// Line height
+
+$font-line-height: 1.5;
+
+// Font family Sans
+
+$font-family-sans:  'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+
+// Font family Serif
+
+$font-family-serif: 'Georgia', 'Cambria', 'Times New Roman', 'Times', serif;
+
+// Font family headers
+
+$font-family-headers: $font-family-sans;
+
+// Font family defaults
+
+$font-family-default: $font-family-serif;
