@@ -1,5 +1,7 @@
 body {
     background: $color-light-green;
+    border-top: .5em solid $color-dark-blue;
+    border-bottom: .5em solid $color-dark-blue;
     font-family: $font-family-default;
     min-height: 100%;
     line-height: $font-line-height;
