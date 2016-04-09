@@ -1,10 +1,10 @@
 .nav {
     &__list {
-      border: 1px solid #1D3557;
+      border: 1px solid $color-dark-blue;
       border-width: 1px 0;
       list-style-type: none;
       padding: 0;
-      margin: 1em 0 1em;
+      margin: modular-scale(2) 0;
       text-align: center;
     }
 
@@ -14,11 +14,12 @@
 
     &__link {
       display: inline-block;
-      padding: 5px;
+      padding: modular-scale(-4);
       text-decoration: none;
 
       &:hover {
-         @include transition(all .2s);
+          background: #457B9D;
+          @include transition(all .2s);
       }
     }
 }
