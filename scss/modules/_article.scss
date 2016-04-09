@@ -1,0 +1,21 @@
+.article {
+    margin: modular-scale(2) 0 0 0;
+
+    &__title {
+        margin: 0;
+        text-align: center;
+    }
+
+    &__meta {
+        color: $color-red;
+        margin: 0;
+        text-align: center;
+    }
+
+    &__categories {
+        color: $color-red;
+        border: 1px solid $color-dark-blue;
+        border-width: 1px 0;
+        margin: modular-scale(2) 0 0 0;
+    }
+}
