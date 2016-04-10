@@ -4,7 +4,7 @@
       border-width: 1px 0;
       list-style-type: none;
       padding: 0;
-      margin: modular-scale(2) 0;
+      margin: ms(2) 0;
       text-align: center;
     }
 
@@ -14,7 +14,7 @@
 
     &__link {
       display: inline-block;
-      padding: modular-scale(-4);
+      padding: ms(-4);
       text-decoration: none;
 
       &:hover {

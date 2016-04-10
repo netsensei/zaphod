@@ -19,8 +19,10 @@ $color-dark-blue: #1D3557;
 
 // Modular scale
 
-$modular-scale-ratio: $minor-third;
-$modular-scale-base: em(18);
+// $modular-scale-ratio: $minor-third;
+// $modular-scale-base: em(18);
+$ms-base: em(18);
+$ms-ratio: $minor-third;
 
 // Line height
 

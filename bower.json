@@ -13,5 +13,8 @@
       "css": "public/vendor/css",
       "js": "public/vendor/js"
     }
+  },
+  "devDependencies": {
+    "modular-scale": "~2.1.1"
   }
 }

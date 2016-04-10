@@ -1,2 +1,7 @@
 @import "../vendor/css/normalize-css/normalize.css";
+
+// Using https://github.com/modularscale/modularscale-sass instead of the
+// default modular-scale mixin from bourbon.
+@import "../../bower_components/modular-scale/stylesheets/modular-scale";
+
 @import "base";

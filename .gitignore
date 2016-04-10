@@ -1,4 +1,5 @@
 node_modules
+bower_components
 public/css/*.css
 public/css/maps
 public/vendor

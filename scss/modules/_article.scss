@@ -1,5 +1,5 @@
 .article {
-    margin: modular-scale(2) 0 0 0;
+    margin: ms(2) 0 0 0;
 
     &__title {
         margin: 0;
@@ -16,6 +16,6 @@
         color: $color-red;
         border: 1px solid $color-dark-blue;
         border-width: 1px 0;
-        margin: modular-scale(2) 0 0 0;
+        margin: ms(2) 0 0 0;
     }
 }
